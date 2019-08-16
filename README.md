@@ -37,9 +37,10 @@ the button should trigger a success message, as shown in the design above.
 1. Fork this repo
 2. Clone your fork
 3. `npm install` it
-4. Do your magic
+4. Do your magic 🌈
 5. Push your work
-6. Reply your invitation email with a link to your repository
+6. Deploy your project somewhere (we recommend using [surge.sh](https://surge.sh/))
+7. Reply your invitation email with the links to your repository and your deployed project
 
 *There's no need to send us a pull request with your code. All tests should be sent to us via email.*
 
@@ -78,5 +79,10 @@ Long story short, we expect clean, maintainable, legible and well organized code
 * To pay attention to the design's details. One of our UX Designers created it thinking about every little aspect of the layout, such as margins, paddings, fonts, colors, etc. You should analyze the image and deliver a page that resembles the original design as much as possible.
 
 ### Git
-* To use git.
+* To use git. 👀
 * To use meaningful yet short commit messages.
+
+## Any questions?
+[Create an issue](https://github.com/penseadvance/front-end-test/issues/new) on this repository and we'll answer as quickly as possible.
+
+Good luck! 🎉
