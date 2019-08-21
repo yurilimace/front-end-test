@@ -22,10 +22,11 @@ Tecnologias Utilizadas
 
 * Javascript
 
-* Surge
+
 ## Dependências Utilizadas
-* React
 * Font-Awsome
+* React
+* Surge
 
 ## Como Usar
  instalar as dependências do projeto
