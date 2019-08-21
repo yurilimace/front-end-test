@@ -1,6 +1,6 @@
 # Front-end @ Advance
 
-Repositório criado para desenvolver o desafio de frontend proposto pela Advance para vaga de Estágio Frontend
+Repositório criado para desenvolver o desafio proposto pela Advance para vaga de Estágio em desenvolvimento Front-end
 
   
 
