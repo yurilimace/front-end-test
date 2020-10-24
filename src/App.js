@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './Components/navbar'
-import Body from './Components/body'
+import Navbar from './components/navbar'
+import Body from './pages/body'
 
 const App = () => {
   return (
