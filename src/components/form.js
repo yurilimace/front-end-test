@@ -12,7 +12,10 @@ class Form extends Component {
     handleChange = event => {
         let input = event.target.value
         let resul = input.split(" ")
-        if ((resul.length >= 2 && input.length >= 7) || input.length === 0) {
+        let resultLenth = result.length
+        let inputLenth =  input.length
+
+        if ((resultLenth >= 2 && inputLenth >= 7) || inputLenth === 0) {
             this.setState({ ...this.state, name: input })
         }
         else {
