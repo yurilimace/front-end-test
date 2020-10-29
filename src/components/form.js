@@ -38,7 +38,7 @@ class Form extends Component {
 
     handleSubmit = () => {
         if ((this.state.name.length > 3) && (this.state.email.length > 3) && (this.state.message.length > 3)) {
-            this.setState({ ...this.state, done: "Sua Mensagem foi enviada com sucesso" })
+            this.setState({ ...this.state, done: "Sua Mensagem foi enviada com sucesso." })
         }
         else {
         }

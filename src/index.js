@@ -9,5 +9,3 @@ import { faTimesCircle, faCheckCircle} from '@fortawesome/free-solid-svg-icons'
 library.add(faTimesCircle,faCheckCircle)
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-
