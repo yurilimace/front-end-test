@@ -10,7 +10,7 @@ const NameInput = (props) => {
             {(props.state.name.length <= 3 && props.state.name.length > 0) &&
                 <div>
                     <i>  <FontAwesomeIcon icon="times-circle" color='red' size='lg' /> </i>
-                    <Erro msg={"Digite seu Nome Completo"} style={style} />
+                    <Erro msg={"Digite seu nome completo"} style={style} />
                 </div>
             }
 
@@ -31,7 +31,7 @@ const EmailInput = (props) => {
             {((props.state.email.indexOf("@") === -1 || props.state.email[0] === "@") && props.state.email.length > 0) &&
                 <div>
                     <i>  <FontAwesomeIcon icon="times-circle" color='red' size='lg' /> </i>
-                    <Erro msg={"Insira um Email Valido"} style={style} />
+                    <Erro msg={"Digite um email válido"} style={style} />
                 </div>
             }
 
@@ -54,7 +54,7 @@ const MessageInput = (props) => {
             {(props.state.message.length <= 3 && props.state.message.length > 0) &&
                 <div>
                     <i className='icon-mesage'>  <FontAwesomeIcon icon="times-circle" color='red' size='lg' /> </i>
-                    <Erro msg={"A mensagem deve conter pelo menos 4 palavras e 20 caracteres"} style={style} />
+                    <Erro msg={"A mensagem deve conter no mínimo 4 palavras e 20 caracteres"} style={style} />
                 </div>
             }
 

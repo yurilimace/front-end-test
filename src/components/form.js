@@ -12,7 +12,10 @@ class Form extends Component {
     handleChange = event => {
         let input = event.target.value
         let resul = input.split(" ")
-        if ((resul.length >= 2 && input.length >= 7) || input.length === 0) {
+        let resultLenth = result.length
+        let inputLenth =  input.length
+
+        if ((resultLenth >= 2 && inputLenth >= 7) || inputLenth === 0) {
             this.setState({ ...this.state, name: input })
         }
         else {
@@ -38,7 +41,7 @@ class Form extends Component {
 
     handleSubmit = () => {
         if ((this.state.name.length > 3) && (this.state.email.length > 3) && (this.state.message.length > 3)) {
-            this.setState({ ...this.state, done: "Sua Mensagem foi enviada com sucesso" })
+            this.setState({ ...this.state, done: "Sua Mensagem foi enviada com sucesso." })
         }
         else {
         }

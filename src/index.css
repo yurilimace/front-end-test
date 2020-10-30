@@ -22,9 +22,6 @@ body,html {
   
 }
 
-
-
-
 .background1{
   background-image: url('./assets/04-BG.png');
   width: 80%;
@@ -39,7 +36,6 @@ body,html {
   z-index: 1;
 }
 
-
 .background2{
   
   width: 50%;
@@ -53,8 +49,6 @@ body,html {
   border-left: 10px solid rgb(32, 60, 64);
   margin-left: 50px;
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -73,7 +67,6 @@ code {
   margin-right: auto;
 }
 
-
 .form{
   position: relative;
   margin-left: 500px;
@@ -81,7 +74,6 @@ code {
   margin-top:100px;
   transform: skewX(5deg);
 }
-
 
 input{
   border-radius: 0.2rem;
@@ -96,7 +88,6 @@ input{
   margin-bottom: 26px;
 }
 
-
 .input{
   margin-bottom: 26px;
   padding-bottom: 150px;
@@ -109,7 +100,7 @@ label{
   color:rgb(227, 237,203);  
   text-align:center;
   display: block;
-  
+
 }
 
 .label-resp{
